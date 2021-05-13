@@ -34,11 +34,7 @@ public class Main {
         int charcomp = outputA.compareTo(outputB);
 
         System.out.println(A.length() + B.length());
-        if (charcomp < 0 ) {
-            System.out.println("No");
-        } else {
-            System.out.println("Yes");
-        }
+        System.out.println(A.compareTo(B)>0?"Yes":"No");
         System.out.println(outputA.concat(outputA1) +" "+ outputB.concat(outputB1));
     }
 }
